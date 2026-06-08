@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Score Downloader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="container">
+        <div class="glass-card">
+            <div class="header">
+                <h1>Score<span>Downloader</span></h1>
+                <p>Install the bookmarklet to download scores directly from MuseScore.</p>
+            </div>
+            
+            <div class="instructions">
+                <h3 style="color: #fff; margin-top: 0; margin-bottom: 15px;">For MuseScore (Bookmarklet)</h3>
+                <ol>
+                    <li>Make sure your browser's <strong>Bookmarks Bar</strong> is visible (<code>Cmd+Shift+B</code> on Mac).</li>
+                    <li>Drag and drop the button below onto your Bookmarks Bar.</li>
+                    <li>Go to any score on <strong>musescore.com</strong> and click the bookmark to download!</li>
+                </ol>
+            </div>
+
+            <div class="bookmarklet-container">
+                <a href="#" id="bookmarklet-btn" class="bookmark-btn">
+                    <span class="btn-text">MuseScore Downloader</span>
+                </a>
+            </div>
+
+            <div class="instructions" style="margin-top: 30px;">
+                <h3 style="color: #fff; margin-top: 0; margin-bottom: 10px;">For Songsterr (Browser Extension)</h3>
+                <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 15px; line-height: 1.5;">Because of strict browser security, Songsterr requires an extension to unlock.</p>
+                <ol>
+                    <li>Download <strong>Tampermonkey</strong> from your browser's extension store (Chrome Web Store, Edge Add-ons, or Mac App Store).</li>
+                    <li>Make sure the Tampermonkey extension is enabled in your browser settings.</li>
+                    <li><a href="https://update.greasyfork.org/scripts/564818/%F0%9F%8E%B8%20Songsterr%20Ultimate%20%28Premium%20Unlocked%29.user.js" target="_blank" style="color: #10b981; font-weight: bold; text-decoration: none;">Click here to install the Songsterr Script!</a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="credit">
+            <p>Made by Richie Leonardo Cendana</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
